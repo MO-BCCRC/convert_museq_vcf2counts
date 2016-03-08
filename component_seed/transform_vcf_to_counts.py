@@ -57,7 +57,7 @@ class transformVcfCounts(object):
             ta = re.split(';|=',line[7])[5]
             #ndp = re.split(';|=',line[7])[13]
             
-            if ref_pos and (chrom, pos) in ref_pos:
+            if ref_pos and (chrom, pos) not in ref_pos:
                 continue
 
             outstr = '\t'.join([chrom,pos,ref,tr,'X',ta]) + '\n'
