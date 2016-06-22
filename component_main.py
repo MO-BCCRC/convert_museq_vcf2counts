@@ -16,7 +16,7 @@ class Component(ComponentAbstract):
 
     def __init__(self, component_name='convert_museq_vcf2counts',
                  component_parent_dir=None, seed_dir=None):
-        self.version = '1.1.3'
+        self.version = '1.1.4'
         ## initialize ComponentAbstract
         super(Component, self).__init__(component_name,
                                         component_parent_dir, seed_dir)

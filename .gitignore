@@ -1,0 +1,6 @@
+*.DS_Store
+*.pdf
+*.pyc
+log.txt
+test.py
+utils.py

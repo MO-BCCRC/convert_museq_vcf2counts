@@ -10,7 +10,7 @@ Input        : vcf file
 Output       : txt file with counts
 Parameters   : 
 Seed used    : filterCounts.py
-
+version: 1.1.4-1.1.0
 ```
 ###Dependencies
 
@@ -23,3 +23,7 @@ Works with TITAN preprocessing mode of mutationseq. Not tested on paired/single 
 
 ###Last updates
 
+
+
+### ChangeLog
+* 1.1.4-1.1.0: added test conf

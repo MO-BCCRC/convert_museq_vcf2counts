@@ -1,0 +1,16 @@
+make_cmd_tests:
+  normal_pipeline_args:
+    args:
+      infile: __REQUIRED__
+      outfile: __REQUIRED__
+      positions_file: __REQUIRED__
+    chunk: 'null'
+    output:
+      cmd: python component_seed/transform_vcf_to_counts.py
+      cmd_args:
+      - --infile
+      - __REQUIRED__
+      - --outfile
+      - __REQUIRED__
+      - --positions_file
+      - __REQUIRED__
