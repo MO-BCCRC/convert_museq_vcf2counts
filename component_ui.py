@@ -18,5 +18,10 @@ parser.add_argument("-o","--outfile",
                     required = True, 
                     help="The path to the counts file")
 
+parser.add_argument("--positions_file", 
+                    required = True, 
+                    help= '''The target positions''')
+
+
 args,unknown = parser.parse_known_args()
 
